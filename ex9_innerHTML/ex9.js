@@ -10,6 +10,20 @@
 
 
 //https://developer.mozilla.org/es/docs/Web/API/Document/getElementById
+function validarDatos() {
+	var user = document.getElementById('user').value;
+	var pass = document.getElementById('pass').value;
+
+	if (user == "clago" && pass == "abc123.") {
+		alert('Autenticación correcta, bienvenido '+ user);
+		document.getElementById('body').style.background = 'green';
+
+	}else{
+		alert('Datos incorrectos, intentalo de nuevo');
+	}
+}
+
+
 function cambiarCor(colorin) {
 	var letras = document.getElementById('textito');
 	letras.style.color = colorin;

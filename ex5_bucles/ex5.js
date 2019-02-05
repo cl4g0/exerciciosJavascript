@@ -14,6 +14,14 @@ document.write('<h1> Páxina de bucles </h1>')
 */
 document.write('<h2> Bucle WHILE</h2>');
 
+
+//while con contraseña
+var pass = '';
+while (pass != 'abc123.') {
+	pass  = prompt('INTRODUCE UNA CONTRASEÑA');
+}
+
+
 //exercicio 1
 document.write('<h3>☞ Contar ata cinco</h3>');
 numerito = 0;
@@ -29,6 +37,7 @@ while (comida != 'nada') {
 	document.write(comida+ ' ');
 	comida  = prompt('Que vos apetece comer con pan?');
 }
+
 
 
 /*	
