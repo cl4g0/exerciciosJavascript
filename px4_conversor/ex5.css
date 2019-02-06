@@ -1,0 +1,32 @@
+h1{
+	color:white;
+	margin-top: 1.5em;
+}
+
+hr{
+	color:green;
+}
+
+
+h2{
+	color: green;
+}
+
+body{
+	text-align: center;
+	margin: 2cm;
+	font-family: sans-serif;
+	background-color: red;
+}
+code{
+	font-size: 1.5rem;
+	color: gray;
+}
+button{
+	margin: 0px 10px;
+	background: white;
+	color: blue;
+	border: 0px;
+	padding: 4px 16px;
+	border-radius: 3px;
+}
