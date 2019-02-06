@@ -1,0 +1,22 @@
+html, body{
+	background: #E6E6E6;
+	height: 100%;
+	width: 100%;
+
+	margin: auto;
+}
+#ingles{
+	background: red;
+	color: white;
+	border: none;
+	padding: 10px;
+}
+#gallego{
+	background: blue;
+	color: white;
+	border: none;
+	padding: 10px;
+}
+#tabla{
+	display: none;
+}
